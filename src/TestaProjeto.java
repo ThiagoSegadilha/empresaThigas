@@ -18,11 +18,11 @@ public class TestaProjeto {
 
         System.out.println(controle.getSoma());
 
-        Funcionario funcionario = new Funcionario();
+        EditorDeVideo editor = new EditorDeVideo();
 
-        funcionario.setSalario(2000.00);
+        editor.setSalario(2000.00);
 
-        controle.registra(funcionario);
+        controle.registra(editor);
 
         System.out.println(controle.getSoma());
     }
