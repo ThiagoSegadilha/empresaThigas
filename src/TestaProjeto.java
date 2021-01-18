@@ -8,9 +8,22 @@ public class TestaProjeto {
         gerente.setSalario(3500.79);
         gerente.setSenha(123);
 
-        System.out.println(gerente.getNome());
-        System.out.println(gerente.getSalario());
+        System.out.println("Nome: " + gerente.getNome());
+        System.out.println("Salario" + gerente.getSalario());
         System.out.println(gerente.autenticacao(123));
-        System.out.println(gerente.getBonificacao());
+
+        ControleBonificacao controle = new ControleBonificacao();
+
+        controle.registra(gerente);
+
+        System.out.println(controle.getSoma());
+
+        Funcionario funcionario = new Funcionario();
+
+        funcionario.setSalario(2000.00);
+
+        controle.registra(funcionario);
+
+        System.out.println(controle.getSoma());
     }
 }
