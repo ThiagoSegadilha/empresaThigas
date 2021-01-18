@@ -1,13 +1,15 @@
 public class TestaProjeto {
 
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario();
+        Gerente gerente = new Gerente();
 
-        funcionario.setNome("Thiago");
-        funcionario.setCpf("0123456789");
-        funcionario.setSalario(1500.79);
+        gerente.setNome("Thiago");
+        gerente.setCpf("0123456789");
+        gerente.setSalario(3500.79);
+        gerente.setSenha(123);
 
-        System.out.println(funcionario.getNome());
-        System.out.println(funcionario.getSalario());
+        System.out.println(gerente.getNome());
+        System.out.println(gerente.getSalario());
+        System.out.println(gerente.autenticacao(123));
     }
 }
