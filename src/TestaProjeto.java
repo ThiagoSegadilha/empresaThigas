@@ -11,5 +11,6 @@ public class TestaProjeto {
         System.out.println(gerente.getNome());
         System.out.println(gerente.getSalario());
         System.out.println(gerente.autenticacao(123));
+        System.out.println(gerente.getBonificacao());
     }
 }
