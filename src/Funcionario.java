@@ -4,10 +4,7 @@ public abstract class Funcionario {
     private String cpf;
     private double salario;
 
-    public double getBonificacao() {
-        System.out.println("Bonificacao do funcionario normal");
-        return getSalario() * 0.1;
-    }
+    public abstract double getBonificacao() {}
 
     public String getNome() {
         return nome;
