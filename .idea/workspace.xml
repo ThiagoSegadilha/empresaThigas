@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af3f1e97-e804-48b0-b989-11ce1ba10589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FuncionarioAutenticavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bancoThigas/EditorDeVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoThigas/EditorDeVideo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bancoThigas/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoThigas/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bancoThigas/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoThigas/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuncionarioAutenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Autenticavel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaProjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaProjeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaInterno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -74,7 +74,7 @@
       <workItem from="1611002548602" duration="1253000" />
       <workItem from="1611411870984" duration="333000" />
       <workItem from="1611412228707" duration="722000" />
-      <workItem from="1611425387909" duration="2418000" />
+      <workItem from="1611425387909" duration="4831000" />
     </task>
     <servers />
   </component>

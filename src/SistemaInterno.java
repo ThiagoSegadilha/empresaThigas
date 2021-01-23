@@ -2,7 +2,7 @@ public class SistemaInterno {
 
     private int senha = 1234;
 
-    public void autenticacao(FuncionarioAutenticavel conta) {
+    public void autenticacao(Autenticavel conta) {
         boolean autenticou = conta.autenticacao(this.senha);
 
         if (autenticou) {
