@@ -6,11 +6,13 @@ public class TestaProjeto {
         gerente.setNome("Thiago");
         gerente.setCpf("0123456789");
         gerente.setSalario(3500.79);
-        gerente.setSenha(123);
+        gerente.setSenha(1234);
 
         System.out.println("Nome: " + gerente.getNome());
-        System.out.println("Salario" + gerente.getSalario());
-        System.out.println(gerente.autenticacao(123));
+        System.out.println("Salario: " + gerente.getSalario());
+
+        SistemaInterno si = new SistemaInterno();
+        si.autenticacao(gerente);
 
         ControleBonificacao controle = new ControleBonificacao();
 
